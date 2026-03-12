@@ -2,7 +2,6 @@
 name = "l22-hw"
 version = "0.1.0"
 description = "Add your description here"
-readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "fastapi>=0.135.1",
@@ -13,3 +12,6 @@ dependencies = [
     "streamlit>=1.55.0",
     "uvicorn>=0.41.0",
 ]
+
+[tool.setuptools]
+py-modules = []
