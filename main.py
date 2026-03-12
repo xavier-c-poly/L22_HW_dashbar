@@ -9,7 +9,7 @@ base_url: str = "https://api.openweathermap.org/data/2.5"
 weather_url: str = "/weather"  # current weather for a given city or coordinates
 forecast_url: str = "/forecast"  # 5 day / 3-hour forecast data
 API_KEY: str = st.secrets["OPENWEATHER_API_KEY"]
-np.random.seed(16)
+#np.random.seed(16)
 
 
 @st.cache_data
