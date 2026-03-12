@@ -15,3 +15,11 @@ dependencies = [
 
 [tool.setuptools]
 py-modules = []
+
+[tool.poetry]
+# This is the "Magic Switch" that stops the installer from looking for a package folder
+package-mode = false
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
